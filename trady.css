@@ -14,7 +14,7 @@ h1 {
   letter-spacing: 2px;
 }
   
-#oblique_strategies p {
+#tradys p {
   font-size: 400%;
   font-weight: bold;
   color: rgba(197,192,101,1);  
@@ -91,7 +91,7 @@ body.random { height: 93%; }
   height: 100%;
 }
 
-#oblique_strategies { cursor: pointer; }
+#tradys { cursor: pointer; }
 
 p.altview {
   position: absolute;

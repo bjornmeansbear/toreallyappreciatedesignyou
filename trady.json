@@ -1,637 +1,154 @@
 {
-    "strategies": [
-        {
-            "strategy": "(Organic) machinery."
-        },
-        {
-            "strategy": "A line has two sides."
-        },
-        {
-            "strategy": "A very small object - Its centre."
-        },
-        {
-            "strategy": "Abandon desire."
-        },
-        {
-            "strategy": "Abandon normal instructions."
-        },
-        {
-            "strategy": "Accept advice."
-        },
-        {
-            "strategy": "Accretion."
-        },
-        {
-            "strategy": "Adding on."
-        },
-        {
-            "strategy": "Allow an easement (an easement is the abandonment of a stricture)."
-        },
-        {
-            "strategy": "Always give yourself credit for having more than personality."
-        },
-        {
-            "strategy": "Always the first steps."
-        },
-        {
-            "strategy": "Animal noises."
-        },
-        {
-            "strategy": "Are there sections? Consider transitions."
-        },
-        {
-            "strategy": "Ask a computer program to repeat your last action."
-        },
-        {
-            "strategy": "Ask people to work against their better judgement."
-        },
-        {
-            "strategy": "Ask your body."
-        },
-        {
-            "strategy": "Assemble some of the elements in a group and treat the group."
-        },
-        {
-            "strategy": "Back up a few steps. What else could you have done?"
-        },
-        {
-            "strategy": "Balance the consistency principle with the inconsistency principle."
-        },
-        {
-            "strategy": "Be dirty."
-        },
-        {
-            "strategy": "Be extravagant."
-        },
-        {
-            "strategy": "Be less critical more often."
-        },
-        {
-            "strategy": "Breathe more deeply."
-        },
-        {
-            "strategy": "Build bridges."
-        },
-        {
-            "strategy": "Burn bridges."
-        },
-        {
-            "strategy": "Call your mother and ask her what to do."
-        },
-        {
-            "strategy": "Cascades."
-        },
-        {
-            "strategy": "Change ambiguities to specifics."
-        },
-        {
-            "strategy": "Change specifics to ambiguities."
-        },
-        {
-            "strategy": "Change instrument roles."
-        },
-        {
-            "strategy": "Change nothing and continue with immaculate consistency."
-        },
-        {
-            "strategy": "Children’s voices speaking."
-        },
-        {
-            "strategy": "Children’s voices singing."
-        },
-        {
-            "strategy": "Cluster analysis."
-        },
-        {
-            "strategy": "Consider different fading systems."
-        },
-        {
-            "strategy": "Consider transitions."
-        },
-        {
-            "strategy": "Consult other promising sources."
-        },
-        {
-            "strategy": "Consult other unpromising sources."
-        },
-        {
-            "strategy": "Convert a melodic element into a rhythmic element."
-        },
-        {
-            "strategy": "Courage!"
-        },
-        {
-            "strategy": "Cut a vital connection."
-        },
-        {
-            "strategy": "Cut a virtual connection."
-        },
-        {
-            "strategy": "Decorate, decorate."
-        },
-        {
-            "strategy": "Define an area as “safe” and use it as an anchor."
-        },
-        {
-            "strategy": "Describe the landscape in which this belongs."
-        },
-        {
-            "strategy": "Destroy nothing."
-        },
-        {
-            "strategy": "Destroy the most important thing."
-        },
-        {
-            "strategy": "Discard an axiom."
-        },
-        {
-            "strategy": "Disciplined self-indulgence."
-        },
-        {
-            "strategy": "Disconnect from desire."
-        },
-        {
-            "strategy": "Discover the recipes you are using and abandon them."
-        },
-        {
-            "strategy": "Discover your formulas and abandon them."
-        },
-        {
-            "strategy": "Display your talent."
-        },
-        {
-            "strategy": "Distorting time."
-        },
-        {
-            "strategy": "Do nothing for as long as possible."
-        },
-        {
-            "strategy": "Do something boring."
-        },
-        {
-            "strategy": "Do something sudden, destructive and unpredictable."
-        },
-        {
-            "strategy": "Do the last thing first."
-        },
-        {
-            "strategy": "Do the washing up."
-        },
-        {
-            "strategy": "Do the words need changing?"
-        },
-        {
-            "strategy": "Do we need holes?"
-        },
-        {
-            "strategy": "Don’t avoid what is easy."
-        },
-        {
-            "strategy": "Don’t be afraid of things because they’re easy to do."
-        },
-        {
-            "strategy": "Don’t be frightened of cliches."
-        },
-        {
-            "strategy": "Don’t be frightened to display your talents."
-        },
-        {
-            "strategy": "Don’t break the silence."
-        },
-        {
-            "strategy": "Don’t stress one thing more than another."
-        },
-        {
-            "strategy": "Emphasize differences."
-        },
-        {
-            "strategy": "Emphasize repetitions."
-        },
-        {
-            "strategy": "Emphasize the flaws."
-        },
-        {
-            "strategy": "Faced with a choice, do both!"
-        },
-        {
-            "strategy": "Feed the recording back out of the medium."
-        },
-        {
-            "strategy": "Feedback recordings into an acoustic situation."
-        },
-        {
-            "strategy": "Fill every beat with something."
-        },
-        {
-            "strategy": "First work alone, then work in unusual pairs."
-        },
-        {
-            "strategy": "From nothing to more than nothing."
-        },
-        {
-            "strategy": "Get your neck massaged."
-        },
-        {
-            "strategy": "Ghost echoes."
-        },
-        {
-            "strategy": "Give the game away."
-        },
-        {
-            "strategy": "Give way to your worst impulse."
-        },
-        {
-            "strategy": "Go outside. Shut the door."
-        },
-        {
-            "strategy": "Go slowly all the way round the outside."
-        },
-        {
-            "strategy": "Go to an extreme, move back to a more comfortable place."
-        },
-        {
-            "strategy": "How would someone else do it?"
-        },
-        {
-            "strategy": "How would you explain this to your parents?"
-        },
-        {
-            "strategy": "How would you have done it?"
-        },
-        {
-            "strategy": "Humanize something that is free of error."
-        },
-        {
-            "strategy": "Idiot glee."
-        },
-        {
-            "strategy": "Imagine the music as a moving chain or caterpillar."
-        },
-        {
-            "strategy": "Imagine the music as a series of disconnected events."
-        },
-        {
-            "strategy": "In total darkness."
-        },
-        {
-            "strategy": "In a very large room, very quietly."
-        },
-        {
-            "strategy": "Infinitesimal gradations."
-        },
-        {
-            "strategy": "Instead of changing the thing, change the world around it."
-        },
-        {
-            "strategy": "Credibility of intentions."
-        },
-        {
-            "strategy": "Nobility of intentions."
-        },
-        {
-            "strategy": "Humility of intentions."
-        },
-        {
-            "strategy": "Is it finished?"
-        },
-        {
-            "strategy": "Is something missing?"
-        },
-        {
-            "strategy": "Is the intonation correct?"
-        },
-        {
-            "strategy": "Is the style right?"
-        },
-        {
-            "strategy": "Is the tuning appropriate?"
-        },
-        {
-            "strategy": "It is quite possible (after all)."
-        },
-        {
-            "strategy": "It is simply a matter or work."
-        },
-        {
-            "strategy": "Just carry on."
-        },
-        {
-            "strategy": "Left channel, right channel, centre channel."
-        },
-        {
-            "strategy": "List the qualities it has. List those you’d like."
-        },
-        {
-            "strategy": "Listen in total darkness."
-        },
-        {
-            "strategy": "Listen in a very large room, very quietly."
-        },
-        {
-            "strategy": "Listen to the quiet voice"
-        },
-        {
-            "strategy": "Look at a very small object, look at its centre."
-        },
-        {
-            "strategy": "Look at the order in which you do things."
-        },
-        {
-            "strategy": "Look closely at the most embarrassing details and amplify."
-        },
-        {
-            "strategy": "Lost in useless territory."
-        },
-        {
-            "strategy": "Lowest common denominator check: single beat; single note; single riff."
-        },
-        {
-            "strategy": "Magnify the most difficult details."
-        },
-        {
-            "strategy": "Make a blank valuable by putting it in an excquisite frame."
-        },
-        {
-            "strategy": "Make a sudden, destructive unpredictable action. Incorporate."
-        },
-        {
-            "strategy": "Make an exhaustive list of everything you might do and do the last thing on the list."
-        },
-        {
-            "strategy": "Make it more sensual."
-        },
-        {
-            "strategy": "Make it more banal."
-        },
-        {
-            "strategy": "Make what’s perfect more human."
-        },
-        {
-            "strategy": "Mechanize something idiosyncratic."
-        },
-        {
-            "strategy": "Move towards the impossible."
-        },
-        {
-            "strategy": "Move towards the unimportant."
-        },
-        {
-            "strategy": "Mute and continue."
-        },
-        {
-            "strategy": "Not building a wall but making a brick."
-        },
-        {
-            "strategy": "Once the search is in progress, something will be found."
-        },
-        {
-            "strategy": "Only a part, not the whole."
-        },
-        {
-            "strategy": "Only one element of each kind."
-        },
-        {
-            "strategy": "Overtly resist change."
-        },
-        {
-            "strategy": "Pae White’s non-blank graphic metacard."
-        },
-        {
-            "strategy": "Pay attention to distractions."
-        },
-        {
-            "strategy": "Picture of a man spotlighted."
-        },
-        {
-            "strategy": "Put in earplugs."
-        },
-        {
-            "strategy": "Question the heroic approach."
-        },
-        {
-            "strategy": "Rearrange."
-        },
-        {
-            "strategy": "Remember those quiet evenings."
-        },
-        {
-            "strategy": "Remove a restriction."
-        },
-        {
-            "strategy": "Remove ambiguities and convert to specifics."
-        },
-        {
-            "strategy": "Remove specifics and convert to ambiguities."
-        },
-        {
-            "strategy": "Remove the middle, extend the edges."
-        },
-        {
-            "strategy": "Repetition is a form of change."
-        },
-        {
-            "strategy": "Retrace your steps."
-        },
-        {
-            "strategy": "Revaluation (a warm feeling)."
-        },
-        {
-            "strategy": "Reverse."
-        },
-        {
-            "strategy": "Short circuit (example; a man eating peas with the idea that they will improve his virility shovels them straight into his lap)."
-        },
-        {
-            "strategy": "Shut the door and listen from outside."
-        },
-        {
-            "strategy": "Simple subtraction."
-        },
-        {
-            "strategy": "Simply a matter of work."
-        },
-        {
-            "strategy": "Slow preparation, fast execution."
-        },
-        {
-            "strategy": "Spectrum analysis."
-        },
-        {
-            "strategy": "State the problem in words as simply as possible."
-        },
-        {
-            "strategy": "Steal a solution."
-        },
-        {
-            "strategy": "Take a break."
-        },
-        {
-            "strategy": "Take away as much mystery as possible. What is left?"
-        },
-        {
-            "strategy": "Take away the elements in order of apparent non-importance."
-        },
-        {
-            "strategy": "Take away the important parts."
-        },
-        {
-            "strategy": "Tape your mouth."
-        },
-        {
-            "strategy": "The inconsistency principle."
-        },
-        {
-            "strategy": "The most important thing is the thing most easily forgotten."
-        },
-        {
-            "strategy": "The tape is now the music."
-        },
-        {
-            "strategy": "Think inside the work."
-        },
-        {
-            "strategy": "Think outside the work."
-        },
-        {
-            "strategy": "Think of the radio."
-        },
-        {
-            "strategy": "Tidy up."
-        },
-        {
-            "strategy": "Towards the insignificant."
-        },
-        {
-            "strategy": "Trust in the you of now."
-        },
-        {
-            "strategy": "Try faking it."
-        },
-        {
-            "strategy": "Turn it upside down."
-        },
-        {
-            "strategy": "Twist the spine."
-        },
-        {
-            "strategy": "Use “unqualified” people."
-        },
-        {
-            "strategy": "Use an old idea."
-        },
-        {
-            "strategy": "Use an unacceptable color."
-        },
-        {
-            "strategy": "Use cliches."
-        },
-        {
-            "strategy": "Use fewer notes."
-        },
-        {
-            "strategy": "Use filters."
-        },
-        {
-            "strategy": "Use something nearby as a model."
-        },
-        {
-            "strategy": "Use your own ideas."
-        },
-        {
-            "strategy": "Voice your suspicions."
-        },
-        {
-            "strategy": "Water."
-        },
-        {
-            "strategy": "Fire."
-        },
-        {
-            "strategy": "Earth."
-        },
-        {
-            "strategy": "Wind."
-        },
-        {
-            "strategy": "Heart."
-        },
-        {
-            "strategy": "What are the sections sections of? (Imagine a caterpillar moving)."
-        },
-        {
-            "strategy": "What context would look right?"
-        },
-        {
-            "strategy": "What do you do? Now, what do you do best?"
-        },
-        {
-            "strategy": "What else is this like?"
-        },
-        {
-            "strategy": "What is the reality of the situation?"
-        },
-        {
-            "strategy": "What is the simplest solution?"
-        },
-        {
-            "strategy": "What mistakes did you make last time?"
-        },
-        {
-            "strategy": "What most recently impressed you? How is it similar? What can you learn from it? What could you take from it?"
-        },
-        {
-            "strategy": "What to increase? What to reduce? What to maintain?"
-        },
-        {
-            "strategy": "What were the branch points in the evolution of this entity?"
-        },
-        {
-            "strategy": "What were you really thinking about just now? Incorporate."
-        },
-        {
-            "strategy": "What would make this really successful?"
-        },
-        {
-            "strategy": "What would your closest friend do?"
-        },
-        {
-            "strategy": "What wouldn’t you do? Do that."
-        },
-        {
-            "strategy": "When is it for?"
-        },
-        {
-            "strategy": "When is it for? Who is it for?"
-        },
-        {
-            "strategy": "Who is it for?"
-        },
-        {
-            "strategy": "Where is the edge?"
-        },
-        {
-            "strategy": "Which parts can be grouped?"
-        },
-        {
-            "strategy": "Who would make this really successful?"
-        },
-        {
-            "strategy": "Work at a different speed."
-        },
-        {
-            "strategy": "Would anyone want it?"
-        },
-        {
-            "strategy": "You are an engineer."
-        },
-        {
-            "strategy": "You can only make one dot at a time."
-        },
-        {
-            "strategy": "You don’t have to be ashamed of using your own ideas."
-        },
-        {
-            "strategy": "Your mistake was a hidden intention."
-        }
+    "tradys": [
+        "should listen as much as you see.",
+        "grow a garden.",
+        "take a walk in the woods.",
+        "must first appreciate life.",
+        "understand at least some color theory.",
+        "ingest only caffeine and nicotine.",
+        "use an iPhone.",
+        "need to experience it.",
+        "strive for perfection, but feel okay when you fall short.",
+        "must remain devoted.",
+        "need to stop being so uptight.",
+        "must not think of yourself as a designer, but as a member of the human race living on planet Earth.",
+        "should never lose sight of the magic inherent in being human.",
+        "should try to explain what design is to your grandmother. When you can do that, then you truly appreciate design.",
+        "need to understand that there is no bad design, only bad designers.",
+        "should steal, steal, steal, and steal some more.",
+        "should steal ideas and make them your own.",
+        "must hold it, love it, and treat it like a pretty new pet.",
+        "vote yes on isgraphicdesignart.com",
+        "lose yourself in grids.",
+        "drink coffee — at least 3 cups a day; and smoke fancy cigarettes.",
+        "must simply see it.",
+        "continue to experience it everyday of your life; it will suddenly click.",
+        "must get pleasure.",
+        "need a lot of piercings.",
+        "name your kid “Buckminster.”",
+        "need to learn what “vernacular” means.",
+        "should hear it in your sleep.",
+        "must feel it in your bones.",
+        "gotta have an open mind, man.",
+        "go to Bernard’s design coalition site.",
+        "take a class with Bernard.",
+        "gotta catch ‘em all!",
+        "look at the original Sticky Fingers album cover designed by Andy Warhol.",
+        "need to give up on being perfect.",
+        "get a job at the Walker Art Center.",
+        "should steal other people’s ideas.",
+        "should probably read a twitter feed about it.",
+        "need to try designing.",
+        "need websites viewable at any screen size … not just 1024x768.",
+        "need the proper equipment.",
+        "drink red wine.",
+        "must try it.",
+        "must knit a typeface.",
+        "you may need to personalize it.",
+        "visit vernacular buildings.",
+        "must steal other designer’s ideas.",
+        "check itsnicethat.com often.",
+        "just let it happen.",
+        "read design books.",
+        "visit conceptual art galleries.",
+        "buy vintage vinyl.",
+        "realize, perhaps suddenly, that you experience it everyday — and most is bad.",
+        "never sleep.",
+        "visit Ikea regularly.",
+        "monkey around in photoshop for a while.",
+        "participate in modern life.",
+        "prepare to have your mind blown.",
+        "do it yourself, jerk.",
+        "should go to school for it, putting yourself in a financial hole, only to find yourself in a dead-end job paying minimum wage.",
+        "must know how to code a website.",
+        "get naked.",
+        "live in it.",
+        "have to shake it to the ground.",
+        "must sleep on it.",
+        "must first define it.",
+        "hang around the studio.",
+        "be open.",
+        "prepare yourself for contradiction.",
+        "should recycle!",
+        "have to appreciate bad design.",
+        "must listen to your designer!",
+        "should attend class everyday.",
+        "challenge your perspective.",
+        "get in on the fun.",
+        "shop at Target.",
+        "should work with/for people who don’t know what design is.",
+        "keep design within reach…",
+        "need to make some.",
+        "need to be bourgeois.",
+        "must join the conversation.",
+        "should own more designer objects.",
+        "should register your name as a domain.",
+        "should visit andrewblauvelt.com.",
+        "need more expendable income.",
+        "should read some design blogs.",
+        "must understand the function complex.",
+        "must do more than see.",
+        "must have good typography.",
+        "have to know how to kern properly.",
+        "simplify man!",
+        "look at it.",
+        "should visit this website more often.",
+        "use it.",
+        "need fancy projectors.",
+        "must understand circle, square, triangle.",
+        "read D.I.Y. Kids.",
+        "should ride in a vintage Citroën DS.",
+        "investigate what makes others tick.",
+        "should step back from design magazines, blogs, and museums for a minute.",
+        "first need to participate in this thing we call humanity.",
+        "need to calm down.",
+        "need to just enjoy the ride, at least momentarily.",
+        "should fingerprint at the airport.",
+        "should try it.",
+        "must break large ideas into small details.",
+        "must also appreciate sarcasm.",
+        "should be a designer.",
+        "visit a modernist building that doesn’t leak.",
+        "should make art.",
+        "need to know the problem/challenge it solves and the concept/thinking behind the designer’s choices.",
+        "watch HGTV.",
+        "learn the difference between letterpress and emboss.",
+        "should throw a party.",
+        "need to personalize it.",
+        "tweet about it.",
+        "should befriend those whose work amazes you.",
+        "must learn to knit.",
+        "intern at Pentagram … twice.",
+        "make a fool of yourself.",
+        "poop a lot.",
+        "must stop using Arial.",
+        "don’t.",
+        "should learn HTML and CSS.",
+        "use the @font-face command.",
+        "should learn CSS as well as Kristian.",
+        "say “purple monkey dishwasher.”",
+        "use @font-face for your webfont demands.",
+        "post pictures to flickr and comment on the images of others.",
+        "I don’t really know what stupidity is.",
+        "hi.",
+        "witness a friend perfectly pack your truck for you in a cross-town move.",
+        "must be able to ignore bad design.",
+        "must change the drupal favicon.",
+        "realize the vast depth of white space.",
+        "smell a lot.",
+        "act green.",
+        "should have a look at nature. The insects. And the cordyceps fungi.",
+        "die.",
+        "touch yourself.",
+        "try living in a Corbu house … only to find that the roof leaks and you contract pneumonia.",
+        "party hard.",
+        "eat donuts.",
+        "FURNITURE.",
+        "try to design something good.",
+        "are naive.",
+        "need to be the person the design was made for.",
+        "must understand form and function!",
+        "love it.",
+        "learn to read Lorem Ipsum."
     ]
 }
