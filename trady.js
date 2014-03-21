@@ -3,7 +3,7 @@ $.getJSON('trady.json', function(data) {
     
   var randomTrady = data[Math.floor(Math.random()*data.length)];
   console.log(randomTrady);
-  $("#tradys p").text(randomTrady);
+  $("#trady-entry").text(randomTrady);
 
 });
 
