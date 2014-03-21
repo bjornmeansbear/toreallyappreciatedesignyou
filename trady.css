@@ -1,0 +1,141 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,300,600");
+
+/* Typography styles and colors
+----------------------------------------------------------------------------------------*/
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  color: rgba(47,41,38,1);
+}
+  
+h1 {
+  font-size: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+  
+#oblique_strategies p {
+  font-size: 400%;
+  font-weight: bold;
+  color: rgba(197,192,101,1);  
+}
+  
+footer  p {
+  font-size: 90%;
+}
+  
+/* links
+----------------------------------------------------------------------------------------*/
+a { 
+  color: rgba(47,41,38,1);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(236,64,121,1);
+  padding: 1px 2px 1px 2px;
+  transition: all 500ms;
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -o-transition: all 500ms;
+  -ms-transition: all 500ms;
+}
+
+a:hover, .navbar a.brand:hover, ul.nav a:hover {
+  background: rgba(236,64,121,1);
+  color: white;
+  text-decoration: none;
+}
+
+/* Layout, alignment, etc.
+----------------------------------------------------------------------------------------*/
+header {
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  border-bottom: 5px solid rgba(236,64,121,1);
+  position: relative;
+}
+
+.listing header { padding-top: 30px; margin-bottom: 0; }
+
+footer { margin-top: 100px; }
+
+.listing footer {margin-bottom: 30px;}
+
+/* object colors & backgrounds
+----------------------------------------------------------------------------------------*/
+html {
+  background: rgba(96,103,103,1);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+  min-height: 101%;
+  height: 101%;
+}
+
+html.random { height: 101%; }
+
+body {
+  background: rgba(132,132,120,1);
+  border: 2px solid rgba(47,41,38,1);
+  margin: 2%;
+  padding: 0;
+  min-height: 93%;
+}
+
+body.random { height: 93%; }
+
+.container { height: 100%; }
+
+.outer {
+  width: 100%;
+  height: 100%;
+}
+
+#oblique_strategies { cursor: pointer; }
+
+p.altview {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+.outer:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -1%; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can
+   also be of any width and height */ 
+.inner {
+  display: inline-block;
+  vertical-align: middle;
+  width: 99%;
+  margin-left: .5%;
+}
+
+/**** listing styles ****/
+
+#fulllist {
+  margin: 0 -15px;
+  padding: 0;
+  list-style-position:inside;
+  font-size: 1.5em;
+}
+
+#fulllist li {
+  border-bottom: 1px solid rgba(96,103,103,1);
+  padding: 0 15px;
+}
+
+#fulllist li p {
+  margin: 0;
+  padding: 1em 0;
+}
+
+#fulllist li:hover {
+  background: rgba(157,178,176,.25);
+}
