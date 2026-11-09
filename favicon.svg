@@ -1,0 +1,12 @@
+<svg width="1082" height="1082" viewBox="0 0 1082 1082" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Icon family frame (kit RULES.md "Icons"): white ground, brown-8 square with
+     offset-outline shadow. Fill is yellow-1, a nod to the old yellow ending.
+     The mark is the sentence's own ellipsis. -->
+<rect width="1082" height="1082" fill="white"/>
+<rect x="146" y="147" width="694.327" height="694.151" fill="#F1EEAB" stroke="#191513" stroke-width="40"/>
+<path d="M936 214.012V934.998H214.83" stroke="#191513" stroke-width="30"/>
+<path d="M891.295 170.215V891.201H170.125" stroke="#191513" stroke-width="30"/>
+<circle cx="313" cy="494" r="62" fill="#191513"/>
+<circle cx="493" cy="494" r="62" fill="#191513"/>
+<circle cx="673" cy="494" r="62" fill="#191513"/>
+</svg>

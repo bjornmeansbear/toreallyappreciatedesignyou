@@ -1,140 +1,282 @@
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,300,600");
+/* Sits on top of kit.css (~/Code/color-system-and-guidelines), which supplies
+   the color scale, type scale and the no-JavaScript fallback colors. Only what's
+   particular to this site lives here. */
 
-/* Typography styles and colors
-----------------------------------------------------------------------------------------*/
-body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  color: rgba(47,41,38,1);
-}
-  
-* { font-size: 1em; }
+/* ---- the color kits ----
+   kits.js puts one of these names on <html> before the page paints, and
+   again with every new ending. Each kit is three colors: ground, ink, and
+   the ending. Everything else follows from them: links, focus ring, rules.
 
-h1 {
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 4em;
-}
+   Ratios are ink on ground / ending on ground (scripts/contrast.py in the
+   kit repo). Both stay at 4.5:1 or above, so either could be set small.
+   Hovered links invert to ground-on-ink, the same ratio as the ink. */
 
-#tradys em {
-  color: rgba(197,192,101,1);  
-}
-  
-footer  p {
-  font-size: 90%;
-}
-  
-/* links
-----------------------------------------------------------------------------------------*/
-a { 
-  color: rgba(47,41,38,1);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(236,64,121,1);
-  padding: 1px 2px 1px 2px;
-  transition: all 500ms;
-  -webkit-transition: all 500ms;
-  -moz-transition: all 500ms;
-  -o-transition: all 500ms;
-  -ms-transition: all 500ms;
-}
+/* light grounds */
+:root[data-kit="cream"]     { --kit-ground: var(--yellow-0);               --kit-ink: var(--wjerk-black); --kit-end: var(--pink-5); }   /* 13.67 / 4.76 */
+:root[data-kit="blush"]     { --kit-ground: var(--pink-1);                 --kit-ink: var(--wjerk-black); --kit-end: var(--pink-6); }   /*  9.32 / 4.98 */
+:root[data-kit="sage"]      { --kit-ground: var(--wjerk-light-green-gray); --kit-ink: var(--wjerk-black); --kit-end: var(--pink-7); }   /*  9.30 / 7.48 */
+:root[data-kit="mustard"]   { --kit-ground: var(--wjerk-yellow);           --kit-ink: var(--wjerk-black); --kit-end: var(--pink-7); }   /*  7.73 / 6.22 */
+:root[data-kit="sky"]       { --kit-ground: var(--wjerk-light-blue);       --kit-ink: var(--wjerk-black); --kit-end: var(--pink-7); }   /*  6.60 / 5.31 */
+:root[data-kit="goldenrod"] { --kit-ground: var(--wjerk-goldenrod);        --kit-ink: var(--wjerk-black); --kit-end: var(--pink-7); }   /*  6.50 / 5.23 */
+:root[data-kit="lilac"]     { --kit-ground: var(--wjerk-purple);           --kit-ink: var(--wjerk-black); --kit-end: var(--pink-8); }   /*  4.77 / 5.44 */
+:root[data-kit="pink"]      { --kit-ground: var(--pink-5);                 --kit-ink: var(--wjerk-white); --kit-end: var(--yellow-0); } /*  4.78 / 4.76 */
+:root[data-kit="brick"]     { --kit-ground: var(--wjerk-red);              --kit-ink: var(--wjerk-white); --kit-end: var(--yellow-0); } /*  4.82 / 4.79 */
 
-a:hover, .navbar a.brand:hover, ul.nav a:hover {
-  background: rgba(236,64,121,1);
-  color: white;
-  text-decoration: none;
+/* dark grounds: the only ones shown to someone whose system is in dark mode */
+:root[data-kit="navy"]      { --kit-ground: var(--wjerk-navy);             --kit-ink: var(--wjerk-white); --kit-end: var(--pink-2); }   /*  9.55 / 5.51 */
+:root[data-kit="night"]     { --kit-ground: var(--brown-9);                --kit-ink: var(--brown-0);     --kit-end: var(--pink-3); }   /* 18.81 / 8.80 */
+:root[data-kit="oxblood"]   { --kit-ground: var(--pink-7);                 --kit-ink: var(--pink-0);      --kit-end: var(--yellow-0); } /*  8.39 / 11.00 */
+:root[data-kit="umber"]     { --kit-ground: var(--wjerk-brown);            --kit-ink: var(--wjerk-white); --kit-end: var(--pink-3); }   /* 11.20 / 5.14 */
+
+/* Hand the kit to the kit.css tokens everything else already uses. */
+:root[data-kit] {
+  --color-bg: var(--kit-ground);
+  --color-text: var(--kit-ink);
+  --color-text-muted: var(--kit-ink);
+  --color-border: var(--kit-ink);
+  --color-accent: var(--kit-end);
 }
 
-/* Layout, alignment, etc.
-----------------------------------------------------------------------------------------*/
-header {
-  margin-bottom: 30px;
-  padding-bottom: 10px;
-  border-bottom: 5px solid rgba(236,64,121,1);
-  position: relative;
+:root[data-kit="pink"], :root[data-kit="brick"], :root[data-kit="navy"],
+:root[data-kit="night"], :root[data-kit="oxblood"], :root[data-kit="umber"] {
+  color-scheme: dark;
 }
 
-.listing header { padding-top: 30px; margin-bottom: 0; }
-
-footer { margin-top: 100px; }
-
-.listing footer {margin-bottom: 30px;}
-
-/* object colors & backgrounds
-----------------------------------------------------------------------------------------*/
 html {
-  background: rgba(96,103,103,1);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-  min-height: 101%;
-  height: 101%;
+  background: var(--color-bg);
 }
 
-html.random { height: 101%; }
-
-body {
-  background: rgba(132,132,120,1);
-  border: 2px solid rgba(47,41,38,1);
-  margin: 2%;
-  padding: 0;
-  min-height: 93%;
+/* ---- links ---- */
+a {
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
 }
 
-body.random { height: 93%; }
-
-.container { height: 100%; }
-
-.outer {
-  width: 100%;
-  height: 100%;
+a:hover {
+  background: var(--color-text);
+  color: var(--color-bg);
+  text-decoration: none;
 }
 
-#tradys { cursor: pointer; }
+/* The page-switch link: a pill, the one place radius is allowed. */
+a.altview {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.75rem; /* 44px touch target */
+  padding: 0 1.25rem;
+  border: 1px solid var(--color-text);
+  border-radius: 999px;
+  font-size: var(--text-xs);
+  line-height: var(--leading-xs);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  white-space: nowrap;
+}
 
-p.altview {
+.visually-hidden {
   position: absolute;
-  bottom: 10px;
-  right: 15px;
-}
- 
-/* The ghost, nudged to maintain perfect centering */
-.outer:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -1%; /* Adjusts for spacing */
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
 }
 
-/* The element to be centered, can
-   also be of any width and height */ 
-.inner {
-  display: inline-block;
-  vertical-align: middle;
-  width: 99%;
-  margin-left: .5%;
+/* ---- layout, both pages ---- */
+.container {
+  padding: 1.5rem;
 }
 
-/**** listing styles ****/
+@media (min-width: 40rem) {
+  .container { padding: 3rem; }
+}
+
+@media (min-width: 55rem) {
+  .container { padding: 3rem 4.5rem; }
+}
+
+footer p {
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+  color: var(--color-text-muted);
+  max-width: 36rem;
+  margin-bottom: 0.75rem;
+}
+
+/* ---- index: the sentence ----
+   The headline is set as large as the screen allows. --font-display is the
+   hook for a self-hosted typeface: add its @font-face here and set
+   --font-display on :root. Sizes sit on the kit's 6px baseline grid, so a new
+   face may want them nudged. */
+.random .container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.random header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.random main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 2rem 0 3rem;
+}
+
+/* Both lines share one size and one leading, on the 6px grid: the lead-in
+   on its own line, the ending below it. Endings over 70 characters
+   (trady.js marks them data-long) drop the whole headline a size so it
+   fits one screen. */
+.random h1 {
+  width: 100%;
+  margin: 0;
+  font-size: 2.625rem;  /* 42/48 */
+  line-height: 3rem;
+  letter-spacing: -0.01em;
+  hyphens: manual; /* never split "appreciate" */
+  overflow-wrap: break-word;
+}
+
+.random h1[data-long] {
+  font-size: var(--text-2xl);  /* 36/42 */
+  line-height: var(--leading-2xl);
+}
+
+@media (min-width: 40rem) {
+  .random h1 {
+    font-size: 4rem;           /* 64/72 */
+    line-height: 4.5rem;
+  }
+  .random h1[data-long] {
+    font-size: 3rem;           /* 48/54 */
+    line-height: 3.375rem;
+  }
+}
+
+@media (min-width: 55rem) {
+  .random h1 {
+    font-size: 6.5rem;         /* 104/108 */
+    line-height: 6.75rem;
+    letter-spacing: -0.02em;
+  }
+  .random h1[data-long] {
+    font-size: 4.5rem;         /* 72/78 */
+    line-height: 4.875rem;
+  }
+}
+
+.lead-in,
+#trady em {
+  display: block;
+  text-wrap: balance;
+}
+
+/* The whole sentence is the button. Strip the browser's button look so it
+   reads as a headline, not a control. */
+#trady {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+#trady:focus-visible {
+  outline-offset: 0.75rem;
+}
+
+#trady em {
+  color: var(--color-accent);
+  width: fit-content;
+}
+
+#trady:hover em {
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.12em;
+}
+
+/* Press inverts, per the kit: no elevation, no glow. */
+#trady:active em {
+  background: var(--color-text);
+  color: var(--color-bg);
+  text-decoration: none;
+}
+
+/* ---- list ---- */
+.listing .container {
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.listing header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding-bottom: 1.125rem;
+  border-bottom: 0.375rem solid var(--color-accent);
+}
+
+.listing h1 {
+  margin: 0;
+  font-size: var(--text-xl);
+  line-height: var(--leading-xl);
+}
+
+.lead {
+  margin: 1.5rem 0;
+  font-size: var(--text-md);
+  line-height: var(--leading-md);
+  color: var(--color-text-muted);
+}
 
 #fulllist {
-  margin: 0 -15px;
+  margin: 0 0 3rem;
   padding: 0;
-  list-style-position:inside;
-  font-size: 1.5em;
+  list-style: none;
+  counter-reset: ending;
+  border-top: 1px solid var(--color-border);
 }
 
+/* A counter instead of a native marker, so each row's rule runs full width. */
 #fulllist li {
-  border-bottom: 1px solid rgba(96,103,103,1);
-  padding: 0 15px;
+  counter-increment: ending;
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--text-lg);
+  line-height: var(--leading-lg);
 }
 
-#fulllist li p {
-  margin: 0;
-  padding: 1em 0;
+#fulllist li::before {
+  content: counter(ending);
+  flex: none;
+  min-width: 2rem;
+  color: var(--color-accent);
+  font-variant-numeric: tabular-nums;
 }
 
-#fulllist li:hover {
-  background: rgba(157,178,176,.25);
+@media (min-width: 40rem) {
+  .listing h1 {
+    font-size: var(--text-2xl);
+    line-height: var(--leading-2xl);
+  }
 }
