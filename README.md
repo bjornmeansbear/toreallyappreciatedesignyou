@@ -28,3 +28,9 @@ add a string to `trady.json`. it finishes the sentence “to really appreciate d
 ```
 
 maybe visitor submissions come back someday.
+
+## license
+
+the code (html, css, js) is [AGPL-3.0](LICENSE): use it, change it, share it. if you change it and run it as a website, share your changes too. `kit.css` is a copy of the Wjerk kit, which is public domain.
+
+not covered by that license: **the endings** in `trady.json` were written by visitors to the 2009 site. they're kept here as an archive of that project, not licensed by me.
