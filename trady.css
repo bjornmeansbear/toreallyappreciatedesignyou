@@ -22,7 +22,9 @@
 :root[data-kit="pink"]      { --kit-ground: var(--pink-5);                 --kit-ink: var(--wjerk-white); --kit-end: var(--yellow-0); } /*  4.78 / 4.76 */
 :root[data-kit="brick"]     { --kit-ground: var(--wjerk-red);              --kit-ink: var(--wjerk-white); --kit-end: var(--yellow-0); } /*  4.82 / 4.79 */
 
-/* dark grounds: the only ones shown to someone whose system is in dark mode */
+/* dark grounds: the only ones shown to someone whose system is in dark mode.
+   With "increase contrast" on, kits.js draws only sage, night and oxblood,
+   where ink and ending both reach AAA. */
 :root[data-kit="navy"]      { --kit-ground: var(--wjerk-navy);             --kit-ink: var(--wjerk-white); --kit-end: var(--pink-2); }   /*  9.55 / 5.51 */
 :root[data-kit="night"]     { --kit-ground: var(--brown-9);                --kit-ink: var(--brown-0);     --kit-end: var(--pink-3); }   /* 18.81 / 8.80 */
 :root[data-kit="oxblood"]   { --kit-ground: var(--pink-7);                 --kit-ink: var(--pink-0);      --kit-end: var(--yellow-0); } /*  8.39 / 11.00 */
